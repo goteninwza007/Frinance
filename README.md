@@ -1,2 +1,1 @@
 # Frinance
-goten ohm

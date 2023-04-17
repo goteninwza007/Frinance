@@ -17,7 +17,8 @@ pipeline {
                     dir('Frinance') {
                         sh "ls"
                         echo "Current path is ${pwd()}"
-                        sh "docker-compose build"
+                        sh "cd main-app"
+                        sh "docker build -t trdamp/project-iamge:v1 ."
                    
                     }
                 }

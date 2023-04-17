@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./main-app
+      dockerfile: Dockerfile
+    image: trdamp/project-iamge:v1

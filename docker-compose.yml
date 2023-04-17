@@ -5,4 +5,4 @@ services:
     build:
       context: ./main-app
       dockerfile: Dockerfile
-    image: trdamp/project-iamge:v1
+    image: trdamp/project-image:v1

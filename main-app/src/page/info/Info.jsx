@@ -60,7 +60,7 @@ export default function Info() {
         </div>
         <div className="w-[90%] max-w-7xl md:w-3/4 h-fit mt-24  mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">
           <div className="w-[80%] h-fit rounded-2xl bg-white mx-auto mt-6 shadow-lg p-6">
-            <h1 className="mt-1 text-4xl font-bold">สถาณะโดยรวม</h1>
+            <h1 className="mt-1 text-4xl font-bold">สถานะโดยรวม</h1>
             <PieChart width={450} height={400}>
               <Pie
                 data={data}
@@ -91,7 +91,7 @@ export default function Info() {
           </div>
 
           <div className="w-[80%] h-fit rounded-2xl bg-white mx-auto mt-6 shadow-lg p-6">
-            <h1 className="mt-1 text-4xl font-bold">สถาณะโดยรวม</h1>
+            <h1 className="mt-1 text-4xl font-bold">สถานะโดยรวม</h1>
             <PieChart width={450} height={400}>
               <Pie
                 data={data2}

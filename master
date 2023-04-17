@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    environment {
+        DOCKER_COMPOSE_FILE = 'docker-compose.yml'
+     }
         stages {
             stage('Initialize Stage') {
                 steps {
@@ -17,8 +19,7 @@ pipeline {
                     dir('Frinance') {
                         sh "ls"
                         echo "Current path is ${pwd()}"
-                        sh "docker-compose build"
-                   
+                        sh "docker-compose up"
                     }
                 }
             }

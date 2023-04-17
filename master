@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+        stages {
+            stage('Initialize Stage') {
+                steps {
+                    echo 'Initial : Delete containers and images'
+                     dir('Frinance') {
+                        echo "Current path is  ${pwd()}"
+                        sh 'docker-compose down --rmi all --volumes || true'
+                     }
+                }
+            }
+
+            stage('Build Stage'){
+                steps {
+                    dir('Frinance') {
+                        sh "ls"
+                        echo "Current path is ${pwd()}"
+                        sh "docker-compose build"
+                   
+                    }
+                }
+            }
+            stage('Push Stage'){
+                steps {
+                    dir('Frinance') {
+                        withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'DOCKER_PASSWORD', usernameVariable: 'DOCKER_USERNAME')]) {
+                            sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
+                        }
+                        sh 'docker push trdamp/project-image:v1'
+                    }
+                }
+            }
+
+            stage('Trigger to puller job'){
+                steps {
+                    build job: 'slave'
+                }
+            }
+        }
+}

@@ -8,7 +8,9 @@ export default function Home() {
       <Navbar />
       <div className="flex flex-col w-full h-full bg-slate-100">
         <div className="relative flex justify-center w-full bg-blue-500 h-1/4">
-          <h1 className="mt-12 text-5xl text-white">HELLO, MR.TARA</h1>
+          <h1 className="absolute left-0 mt-12 ml-12 text-5xl text-white">
+            HELLO, MR.TARA
+          </h1>
           <div className="w-[90%] max-w-4xl md:w-3/4 h-1/2 rounded-2xl bg-white absolute -bottom-14 flex justify-between  overflow-hidden">
             <div className="w-1/3 hover:bg-slate-300">
               <Link to="/quest">

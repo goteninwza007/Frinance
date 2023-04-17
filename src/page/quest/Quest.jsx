@@ -36,11 +36,11 @@ export default function Quest() {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center w-full h-full bg-blue-500">
+      <div className="flex justify-center w-full h-full bg-[#0b87ba]">
         <h1 className="absolute left-0 mt-12 ml-12 text-white md:ml-24 text-7xl">
           All Quest
         </h1>
-        <div className="w-[90%] max-w-4xl md:w-3/4 h-fit rounded-2xl bg-white absolute mb-24 mt-36 md:mt-48 grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 p-4">
+        <div className="w-[90%] max-w-4xl md:w-3/4 h-fit rounded-2xl bg-white absolute mb-24 mt-36 md:mt-48 grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 p-4 pb-12">
           <QuestCard />
           <QuestCard />
           <QuestCard />

@@ -55,7 +55,7 @@ export default function Quest() {
   return (
     <>
       <Navbar />
-      <div className="relative flex justify-center w-full h-full bg-blue-500">
+      <div className="relative flex justify-center w-full h-full bg-[#0b87ba]">
         <div className="absolute flex w-full h-24 max-w-4xl mt-12">
           <div className="flex items-center justify-center w-1/5">
             <h1 className="w-full text-5xl text-white">Location</h1>
@@ -67,7 +67,7 @@ export default function Quest() {
             />
           </div>
           <div className="flex items-center justify-center w-1/5">
-            <button className="w-full p-4 bg-red-600 rounded-full hover:bg-red-300">
+            <button className="w-full p-4 text-xl text-white bg-[#ffbd59] rounded-full hover:bg-[#e5aa50]">
               Save Changes
             </button>
           </div>
@@ -108,6 +108,9 @@ export default function Quest() {
                   ห้างสรรพสินค้า และสนามบินอย่างครบครัน
                 </h1>
                 <h1 className="mt-8 ml-4 text-5xl ">$ 2,3xx,xxx</h1>
+                <button className="text-xl px-8 py-2 absolute bottom-8 left-8 border-4 border-[#ffbd59] border-solid rounded-full bg-[#ffbd59] hover:bg-[#e5aa50] hover:border-[#e5aa50] text-white">
+                  ซื้อเลย
+                </button>
                 <h1 className="absolute text-xl text-green-500 right-8 bottom-8">
                   สามารถซื้อได้
                 </h1>

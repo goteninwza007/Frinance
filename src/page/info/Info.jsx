@@ -45,8 +45,10 @@ export default function Info() {
     <>
       <Navbar />
       <div className="flex flex-col w-full h-full bg-slate-100">
-        <div className="relative flex justify-center w-full bg-blue-500 h-1/4">
-          <h1 className="mt-12 text-5xl text-white">HELLO, MR.TARA</h1>
+        <div className="relative flex justify-center w-full bg-[#0b87ba] h-1/4">
+          <h1 className="absolute left-0 mt-12 ml-12 text-5xl text-white">
+            HELLO, MR.TARA
+          </h1>
           <div className="w-[90%] max-w-4xl md:w-3/4 h-1/2 rounded-full bg-white absolute -bottom-14 flex justify-between  overflow-hidden">
             <div className="flex flex-col items-center justify-center w-full bg-red-500 hover:bg-red-600">
               <h1 className="text-5xl text-white">ความพร้อมคุณต่ำมาก</h1>

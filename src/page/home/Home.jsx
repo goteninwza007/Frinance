@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className="flex flex-col w-full h-full bg-slate-100">
-        <div className="relative flex justify-center w-full bg-blue-500 h-1/4">
+        <div className="relative flex justify-center w-full bg-[#0b87ba] h-1/4">
           <h1 className="absolute left-0 mt-12 ml-12 text-5xl text-white">
             HELLO, MR.TARA
           </h1>
@@ -17,7 +17,7 @@ export default function Home() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
+                  fill={'#ffbd59'}
                   class="w-full h-full p-6 cursor-pointer"
                 >
                   <path d="M5.625 3.75a2.625 2.625 0 100 5.25h12.75a2.625 2.625 0 000-5.25H5.625zM3.75 11.25a.75.75 0 000 1.5h16.5a.75.75 0 000-1.5H3.75zM3 15.75a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zM3.75 18.75a.75.75 0 000 1.5h16.5a.75.75 0 000-1.5H3.75z" />
@@ -30,7 +30,7 @@ export default function Home() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
+                  fill={'#ffbd59'}
                   className="w-full h-full p-6 cursor-pointer"
                 >
                   <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
@@ -44,7 +44,7 @@ export default function Home() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
+                  fill={'#ffbd59'}
                   className="w-full h-full p-6 cursor-pointer"
                 >
                   <path
@@ -67,7 +67,7 @@ export default function Home() {
             <h1 className="mt-4 text-md opacity-70">เช็คยอดเงิน</h1>
             <h1 className="mt-2 text-2xl font-bold">บัญชี ออลล์ฟรี</h1>
             <h1 className="mt-2 text-md opacity-70">xxx-x-xx1430</h1>
-            <button className="px-4 py-2 mt-4 text-yellow-400 border-4 border-yellow-400 border-solid rounded-full hover:bg-yellow-300">
+            <button className="px-4 py-2 mt-4 text-[#ffbd59] border-4 border-[#ffbd59] border-solid rounded-full hover:bg-[#ffbd59] hover:text-white">
               ดูยอดเงิน
             </button>
           </div>
@@ -75,7 +75,7 @@ export default function Home() {
             <h1 className="mt-4 text-md opacity-70">เติมเงิน</h1>
             <h1 className="mt-2 text-2xl font-bold">True Money Wallet</h1>
             <h1 className="mt-2 text-md opacity-70">xxxxxx3407</h1>
-            <button className="px-4 py-2 mt-4 text-yellow-400 border-4 border-yellow-400 border-solid rounded-full hover:bg-yellow-300">
+            <button className="px-4 py-2 mt-4 text-[#ffbd59] border-4 border-[#ffbd59] border-solid rounded-full hover:bg-[#ffbd59] hover:text-white">
               เติมเงิน
             </button>
           </div>
@@ -83,7 +83,7 @@ export default function Home() {
             <h1 className="mt-4 text-md opacity-70">กองทุน</h1>
             <h1 className="mt-2 text-2xl font-bold">NEXT Investment</h1>
             <h1 className="mt-2 text-md opacity-70">จาก KTAM</h1>
-            <button className="px-4 py-2 mt-4 text-yellow-400 border-4 border-yellow-400 border-solid rounded-full hover:bg-yellow-300">
+            <button className="px-4 py-2 mt-4 text-[#ffbd59] border-4 border-[#ffbd59] border-solid rounded-full hover:bg-[#ffbd59] hover:text-white">
               ลงทุน
             </button>
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
             <h1 className="mt-4 text-md opacity-70">สมัครบัตรเครดิต</h1>
             <h1 className="mt-2 text-2xl font-bold">KTC PROUD</h1>
             <h1 className="mt-2 text-md opacity-70">จาก KTC</h1>
-            <button className="px-4 py-2 mt-4 text-yellow-400 border-4 border-yellow-400 border-solid rounded-full hover:bg-yellow-300">
+            <button className="px-4 py-2 mt-4 text-[#ffbd59] border-4 border-[#ffbd59] border-solid rounded-full hover:bg-[#ffbd59] hover:text-white">
               สมัคร
             </button>
           </div>
